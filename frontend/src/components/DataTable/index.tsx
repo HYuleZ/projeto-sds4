@@ -4,11 +4,23 @@ function DataTable() {
             <table className="table table-striped table-sm">
                 <thead>
                     <tr>
-                        <th>Data</th>
+                        {/* <th>Data</th>
                         <th>Vendedor</th>
                         <th>Clientes visitados</th>
                         <th>Negócios fechados</th>
-                        <th>Valor</th>
+                        <th>Valor</th> */}
+                        <th>Vendedor</th>
+                        <th>Nome</th>
+                        <th>Meta</th>
+                        <th>Vlr. Devol.</th>
+                        <th>Base Comissão</th>
+                        <th>% Atendido</th>
+                        <th>Aguard. Lib.</th>
+                        <th>Aguard. Crédito</th>
+                        <th>Aguard. Estoque</th>
+                        <th>Aguard. Faturamento</th>
+                        <th>Faturadi + Carteira</th>
+                        <th>% Atendido</th>
                     </tr>
                 </thead>
                 <tbody>
